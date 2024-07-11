@@ -1,3 +1,9 @@
+rust-cfg-if (1.0.0-1+pexip24u1) pexip; urgency=medium
+
+  * Prepare Pexip packaging
+
+ -- Huw Jones <huw@pexip.com>  Thu, 11 Jul 2024 10:24:56 +0100
+
 rust-cfg-if (1.0.0-1) unstable; urgency=medium
 
   * Team upload.

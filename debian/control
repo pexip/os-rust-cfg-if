@@ -6,8 +6,9 @@ Build-Depends: debhelper (>= 12),
  cargo:native <!nocheck>,
  rustc:native <!nocheck>,
  libstd-rust-dev <!nocheck>
-Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
-Uploaders:
+Maintainer: Pexip AS <packaging@pexip.com>
+XSBC-Pexip-Original-Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+XSBC-Pexip-Original-Uploaders:
  Ximin Luo <infinity0@debian.org>,
  Wolfgang Silbermayr <wolfgang@silbermayr.at>
 Standards-Version: 4.5.0
@@ -15,6 +16,7 @@ Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/cfg-if]
 Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/cfg-if
 Homepage: https://github.com/alexcrichton/cfg-if
 Rules-Requires-Root: no
+XS-Pexip-Upstream: http://deb.debian.org/debian/ bookworm
 
 # FIXME (packages."(name)".section) debcargo auto-generated summaries are very long, consider overriding
 
